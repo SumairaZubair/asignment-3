@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+h1{
+  margin-top: 10%;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-decoration: underline 2px solid rgb(109, 176, 179);
+}
+input{
+  margin-top: 30px;
+  margin-left: 39%;
+  width: 270px;
+  height: 30px;
+  border-radius: 10px ;
+  margin-right: 10px;
+  background-color: rgb(191, 241, 244);
+  border: 2px solid rgba(79, 142, 137, 0.44);
+}
+.add{
+  font-size: 15;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(153, 185, 186);
+  border: 2px solid rgba(33, 54, 53, 0.44);
+}
+.add:hover{
+  transition: 0.2s ease-in-out;
+  background-color: rgb(125, 232, 223);
+}
+.list{
+   width: 300px;
+   height: 30px;
+   border-radius: 10px;
+   border: 2px solid rgb(109, 201, 241);
+   margin-top: 30px;
+   margin-left: 38%;
+}
+.del{
+  /* width: 0px;
+  height: 30px; */
+  border-radius: 10px;
+  background-color: rgb(124, 199, 206);
+  border: 2px solid rgb(109, 201, 241);
+  /* margin-top: 30px; */
+  margin-top: 10px;
+  /* position: absolute; */
+  /* top: 47%; */
+  margin-left: 48%;
+  padding: 5px;
+}
+.del:hover{
+  transition: 0.2s ease-in-out;
+  background-color: rgb(137, 225, 232);
+}
+@media (max-width:700px){
+  input{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px ;
+    margin-right: 10px;
+    background-color: rgb(191, 241, 244);
+    border: 2px solid rgba(79, 142, 137, 0.44);
+  }
+  .list{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(109, 201, 241);
+    margin-top: 30px;
+    margin-left: 0px;
+    list-style: none;
+ }
+}
